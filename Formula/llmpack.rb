@@ -5,8 +5,8 @@
 class Llmpack < Formula
   desc "My cool combine and query"
   homepage "https://github.com/harukaxq/llmpack"
-  url "https://github.com/harukaxq/llmpack/archive/refs/tags/v0.0.20.tar.gz"
-  sha256 "050113503a756cc0b6503be2701d90362a8ccf4c4fb6a2506f072837228de63f"
+  url "https://github.com/harukaxq/llmpack/archive/refs/tags/v0.0.21.tar.gz"
+  sha256 "0a25079872d8287995df1450abb30d0544ab701538ce648f694058524fc07c3b"
 
   def install
     if OS.mac?

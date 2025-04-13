@@ -8,8 +8,6 @@ class Llmpack < Formula
   url "https://github.com/harukaxq/llmpack/archive/refs/tags/v0.0.20.tar.gz"
   sha256 "050113503a756cc0b6503be2701d90362a8ccf4c4fb6a2506f072837228de63f"
 
-  depends_on python@3.12
-
   def install
     if OS.mac?
   # Download pre-built binary for macOS

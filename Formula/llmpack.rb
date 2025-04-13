@@ -20,7 +20,7 @@ class Llmpack < Formula
   (libexec/"bin").mkpath
   
   # Download and install binary
-  curl_download binary_url, binary_path
+  system "curl", "-fsSL", binary_url, "-o", binary_path
   chmod 0755, binary_path
   
   # Create wrapper script
